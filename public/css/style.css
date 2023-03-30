@@ -1,0 +1,86 @@
+.section1{
+    height: 23cm;
+    position: relative;
+    z-index: 1;
+}
+.section1::before{
+    
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 23cm;
+    background-image: url('/images/image1.jpg');
+    background-size: cover;
+    filter: brightness(25%);
+    z-index: -1;
+}
+.section2{
+    height: 23cm;
+    position: relative;
+}
+
+.section3{
+    height: 23cm;
+    position: relative;
+}
+
+.section4{
+    height: 23cm;
+    position: relative;
+    background-color: #DCB14F;
+}
+.nav-link{
+    color: white;
+}
+.logo{
+    width: 18%;
+    margin-left: 50px;
+}
+.text1{
+    margin-top: 210px;
+    margin-left: 50px;
+}
+.h1-text1{
+    font-size: 70px;
+    color: white;
+}
+.p1{
+    font-size: 25px;
+    color: white;
+}
+
+.vr{
+    border-right: 3px solid white;
+    background-color: white;
+}
+.nav1{
+    font-size: 28px;
+}
+.nav2{
+    font-size: 13px;
+}
+.section2-img1{
+    width: 60%;
+}
+.section2-img2{
+    width: 60%;
+}
+.section2-img3{
+    margin-top: 90px;
+    width: 45%;
+}
+.btn-inscription{
+    --bs-btn-color:#fff;
+    --bs-btn-bg:#DCB14F;
+    --bs-btn-border-color:#DCB14F;
+    --bs-btn-hover-color:#fff;
+    --bs-btn-hover-bg:#A08343;
+    --bs-btn-hover-border-color:#A08343;
+    --bs-btn-focus-shadow-rgb:49,132,253;
+    --bs-btn-active-color:#fff;
+    --bs-btn-active-bg:#A08343;
+    --bs-btn-active-border-color:#A08343;
+    --bs-btn-active-shadow:inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color:#fff;
+}
